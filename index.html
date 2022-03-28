@@ -1,1 +1,315 @@
-<h1> Hi! </h1>
+<!DOCTYPE HTML>
+<html lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Ben Usman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="google-site-verification" content="qAsErjKr5cXQVyc5oOemjsGRgDk5AmCxvPi4k254tNU" />
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Ben Usman</name>
+              </p>
+              <p>I am a PhD candidate at the Computer Science Department of <a href="http://bu.edu">Boston University</a> advised by Prof. <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>. I work on visual domain adaptation, unsupervised cross-domain image translation, manipulation, disentaglement, and other vision tasks.
+              </p>
+              <p>
+                Before joining BU, I graduated from the <a href="https://mipt.ru/english/">Moscow Institute of Physics and Technology</a>, with a BS in applied math and physics, and MS in applied math and computer science (joint program with <a href="https://www.skoltech.ru/en/">Skoltech</a>).
+              </p>
+              <p style="text-align:center">
+                usmn&nbsp[at]&nbspbu&nbsp[dot]&nbspedu &nbsp/&nbsp
+                <a href="pdf/cv.pdf">CV</a> &nbsp/&nbsp
+                <a href="pdf/cv_extended.pdf">Extended CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=reUYd_0AAAAJ">Google Scholar</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="img/pic.jpg" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I mostly work on generative image modeling for unsupervised cross-domain image alignment and manipulation. I am also interested in ML for graphics, generalization and statistical learning theory, neural tangent kernels and overparameterization, and other adjacent topics. See the <a href="#res">resources</a> section below.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/honest_disent.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/2111.13279.pdf">
+      <papertitle>Disentangled Unsupervised Image Translation via Restricted Information Flow</papertitle>
+    </a>
+    <br>
+    <strong>Ben Usman*</strong>, <a href="http://cs-people.bu.edu/dbash/">Dina Bashkirova*</a>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>(in submission)</em> 2021
+    <br>
+    <a href="https://arxiv.org/abs/2111.13279">arxiv</a> / <a href="bib/rift.bib">bib</a>
+    <p></p>
+
+    <p> We propose a new many-to-many image translation method that infers which attributes are
+domain-specific from data by constraining information flow through the network using translation honesty losses and a penalty on the capacity of the domain-specific embedding, and does not rely on hard-coded inductive architectural biases. </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/oral_exam.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://bostonu.zoom.us/rec/play/6uZzyLO07IVKUqI3KfZjY_6JhZvOjAClxNZiW7sJeoXDegFN58CLJaxLmjI7lnUin-91l-9v7qrOb6OS.2_AJkFwRnGNkgifz?continueMode=true">
+      <papertitle>Analysing Failure Modes in Unsupervised Image-to-Image Translation</papertitle>
+    </a>
+    <br>
+    <em>Related Work Presentation at Boston University</em> 2021 
+    <br>
+    <a href="https://www.youtube.com/watch?v=hptf391weV4">youtube [1h]</a> / <a href="pdf/oral_exam.pdf">slides</a> / <a href="pdf/oral_refs.html"> refs </a> / <a href="bib/oral_exam.bib">bib</a>
+    <p></p>
+    <p>I present prior work that introduces tools helpful in reasoning about UI2I methods: ε-cover method with Chernoff bound (to estimate sample complexity), approximate Nash equilibrium (to analyse the existence of the solution), invertibility of Markov operators (to estimate statistical distances under data augmentations), and complexity tradeoffs in unsupervised alignment. </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/metapose.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/2108.04869.pdf">
+      <papertitle>MetaPose: Fast 3D pose from multiple views without 3D supervision</papertitle>
+    </a>
+    <br> 
+<strong>Ben Usman</strong>, <a href="https://taiya.github.io/">Andrea Tagliasacchi</a>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>, <a href="https://scholar.google.com/citations?user=zc6Iy0IAAAAJ&hl=en">Avneesh Sud</a>
+    <br>
+    <em>CVPR</em> 2022 
+    <br>
+    <a href="https://arxiv.org/abs/2108.04869">arxiv</a> / <a href="https://metapose.github.io/">project page</a> / <a href="bib/metapose.bib">bib</a>
+    <p></p>
+    <p>We showed that a small feed-forward network can quickly and accurately estimate 3D poses and camera parameters from multi-view imagery successfully resolving uncertainty of single-view pose predictions and providing additional regularization in poorly conditioned few-camera setup. </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/m2m.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/2103.15727.pdf">
+      <papertitle>Evaluation of Correctness in Unsupervised Many-to-Many Image Translation</papertitle>
+    </a>
+    <br>
+<a href="http://cs-people.bu.edu/dbash/">Dina Bashkirova</a>, <strong>Ben Usman</strong>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>WACV</em> 2022
+    <br>
+    <a href="https://arxiv.org/pdf/2103.15727.pdf">arxiv</a> / <a href="https://github.com/dbash/umi2i_correctness">github</a> / <a href="https://ai.bu.edu/umi2i_correctness/">project page</a> / <a href="https://cs-people.bu.edu/usmn/pdf/corr_poster.pdf">poster</a> / <a href="https://openaccess.thecvf.com/content/WACV2022/html/Bashkirova_Evaluation_of_Correctness_in_Unsupervised_Many-to-Many_Image_Translation_WACV_2022_paper.html">proceedings</a> / <a href="bib/m2m.bib">bib</a>
+    <p></p>
+    <p>Our evaluation protocol reveals that all existing unsupervised many-to-many translation models fail to infer which attributes are domain-specific and which are domain-invariant from data, and mostly rely on biases hard-coded into their architectures.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/lrmf.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/2003.12170.pdf">
+      <papertitle>Log-Likelihood Ratio Minimizing Flows: Towards Robust and Quantifiable Neural Distribution Alignment</papertitle>
+    </a>
+    <br>
+<strong>Ben Usman</strong>, <a href="https://dblp.org/pid/152/1403.html">Nick Dufour</a>, <a href="https://scholar.google.com/citations?user=zc6Iy0IAAAAJ&hl=en">Avneesh Sud</a>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>NeurIPS</em> 2020 
+    <br>
+    <a href="https://arxiv.org/abs/2003.12170">arxiv</a> / <a href="https://github.com/MInner/lrmf">github</a> / <a href="https://crossminds.ai/video/log-likelihood-ratio-minimizing-flows-towards-robust-and-quantifiable-neural-distribution-alignment-606fe2f7f43a7f2f827c0167/">video [3min]</a> / <a href="https://docs.google.com/presentation/d/e/2PACX-1vR8NhoJnjn_S74_1DuoAciF3UXzOlXeJ3a8v2c0zez5S9Y1ctX9I9IIThh5wmt0DTnm9EnqyRxEMHf_/pub?start=false&loop=false&delayms=60000">slides</a> / <a href="pdf/lrmf_poster.pdf">poster</a> / <a href="https://papers.nips.cc/paper/2020/hash/f169b1a771215329737c91f70b5bf05c-Abstract.html">proceedings </a> / <a href="bib/lrmf.bib">bib</a>
+    <p></p>
+    <p>We show how to upper-bound an adversarial log-likelihood ratio domain alignment objective with a simple stable minimization objective, if the domain transformation is a normalizing flow, and show its relation to Jensen–Shannon divergence and GANs.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/selfadv.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/1908.01517.pdf">
+      <papertitle>Adversarial Self-Defense for Cycle-Consistent GANs</papertitle>
+    </a>
+    <br>
+<a href="http://cs-people.bu.edu/dbash/">Dina Bashkirova</a>, <strong>Ben Usman</strong>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>NeurIPS</em> 2019 
+    <br>
+    <a href="https://arxiv.org/abs/1908.01517">arxiv</a> 
+    / <a href="https://github.com/dbash/pix2pix_cyclegan_guess_noise"> github </a> 
+    / <a href="http://ai.bu.edu/selfadv/"> project page </a> 
+    / <a href="http://ai.bu.edu/selfadv/neurips_2019_poster_dbash.pdf">poster</a> 
+    / <a href="https://papers.nips.cc/paper/2019/hash/b83aac23b9528732c23cc7352950e880-Abstract.html"> proceedings </a> 
+    / <a href="bib/selfadv.bib">bib</a> 
+    <p></p>
+    <p>We show that cycle-consistent models reconstruct input images by embedding low-amplitude structured noise into intermediate generated images. We propose an adversarial loss that prevents this kind of "cheating" and, as a result, improves translation accuracy.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/ppg2.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/1901.10024.pdf">
+      <papertitle>PuppetGAN: Cross-domain image manipulation by demonstration</papertitle>
+    </a>
+    <br>
+    <strong>Ben Usman</strong>, <a href="https://dblp.org/pid/152/1403.html">Nick Dufour</a>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>, <a href="http://chris.bregler.com/">Christoph Bregler</a>
+    <br>
+    <em>ICCV</em> 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+    <br>
+    <a href="https://arxiv.org/abs/1901.10024">arxiv</a> / <a href="http://ai.bu.edu/puppetgan/"> project page </a> / <a href="https://www.youtube.com/watch?v=hJ9WXUxzL8M"> demo [1min] </a> / <a href="https://www.youtube.com/watch?v=ByfFufRhuRc&t=3745s"> iccv oral [4min] </a> / <a href="pdf/puppet_poster.pdf">poster</a> / <a href="https://docs.google.com/presentation/d/e/2PACX-1vQNeg_GHpQ17GgYKaMqQIhg3qIqE67ZL0u0_tBzi1aHREd17o5HayYlrA6IC7sXQ6LtmoUOHXNrJDAp/pub?start=false&loop=false&delayms=60000&slide=id.g61f6dec791_1_1343">slides</a> / <a href="bib/ppg.bib">bib</a>
+    <p></p>
+    <p>We train a model to precisely manipulate individual attributes of real images using only synthetic supervision for training, e.g. learning to realistically manipulate mouth expression or lighting on real human images from demonstrations of how these manipulations look on 3D renders.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/cg3d.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/1806.03698.pdf">
+      <papertitle>Unsupervised video-to-video translation</papertitle>
+    </a>
+    <br>
+    <a href="http://cs-people.bu.edu/dbash/">Dina Bashkirova</a>, <strong>Ben Usman</strong>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>arXiv</em> 2018
+    <br>
+    <a href="https://arxiv.org/abs/1806.03698">arxiv</a> 
+    / <a href="https://github.com/dbash/CycleGAN3D"> github </a>
+    / <a href="http://csr.bu.edu/ftp/MRCT/"> volumetric data </a>
+    / <a href="bib/cg3d.bib">bib</a>
+    <p></p>
+    <p>We propose a spatiotemporal extention of CycleGAN and show when it performs better then per-frame translation on two novel unsupervised video-to-video translation benchmarks including a novel CT-to-MRI volumetric medical domain.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/dual_da.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/1707.04046.pdf">
+      <papertitle>Stable distribution alignment using the dual of the adversarial distance</papertitle>
+    </a>
+    <br>
+    <strong>Ben Usman</strong>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>, <a href="http://people.bu.edu/bkulis/">Brian Kulis</a>
+    <br>
+    <em>ICLR Workshop</em> 2018
+    <br>
+    <a href="https://arxiv.org/abs/1707.04046">arxiv</a> / <a href="pdf/dual_poster.pdf">poster</a> / <a href="https://docs.google.com/presentation/d/e/2PACX-1vQriXKvpCBe737jdfITGTrHatfe9z--waXDx9lerW3slwMd0KRzs75LTygJqkPkphHUQDQw7_HqajzJ/pub?start=false&loop=false&delayms=60000">slides</a> / <a href="bib/stable.bib">bib</a>
+    <p></p>
+    <p>We showed how to stabilize gradient descent iterations for the adversarial alignment with a kernelized logistic discriminator by dualizing the inner maximization problem, and point to its relation to MMD with iteratively-reweighted least squares.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/syn2real2.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/1806.09755.pdf">
+      <papertitle>Syn2Real: A new benchmark for synthetic-to-real visual domain adaptation</papertitle>
+    </a>
+    <br>
+    <a href="https://cs-people.bu.edu/xpeng/">Xingchao Peng</a>, <strong>Ben Usman</strong>, <a href="https://cs-people.bu.edu/keisaito/">Kuniaki Saito</a>, <a href="https://scholar.google.com/citations?user=aNa5dNIAAAAJ&hl=en">Neela Kaushik</a>, <a href="https://www.cc.gatech.edu/~judy/">Judy Hoffman</a>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>arXiv</em> 2018 <br>
+    <a href="https://arxiv.org/abs/1806.09755">arxiv</a>
+    / <a href="http://ai.bu.edu/syn2real/index.html">project page</a>
+    / <a href="http://ai.bu.edu/visda-2018/">challenge website</a>
+    / <a href="bib/syn2real.bib">bib</a>
+    <p></p>
+    <p> We developed a large-scale synthetic datasets with occlusions for cross-domain detection and open-set classification.</p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="img/vda17.png" alt="clean-usnob" width="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/pdf/1710.06924.pdf">
+      <papertitle>VisDA: The visual domain adaptation challenge</papertitle>
+    </a>
+    <br>
+    <a href="https://cs-people.bu.edu/xpeng/">Xingchao Peng</a>, <strong>Ben Usman</strong>, <a href="https://scholar.google.com/citations?user=aNa5dNIAAAAJ&hl=en">Neela Kaushik</a>, <a href="https://www.cc.gatech.edu/~judy/">Judy Hoffman</a>, <a href="https://dequan.wang/">Dequan Wang</a>, <a href="http://ai.bu.edu/ksaenko.html">Kate Saenko</a>
+    <br>
+    <em>CVPR Workshop</em> 2018
+    <br>
+    <a href="https://arxiv.org/abs/1710.06924">arxiv</a>
+    / <a href="http://ai.bu.edu/visda-2017/">challenge website</a> / <a href="bib/visda.bib">bib</a>
+    <p> We developed a large-scale synthetic datasets for cross-domain closed-set classification.</p>
+  </td>
+</tr>
+</tbody></table>
+
+<!-- --------- -->
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <heading>Service</heading>
+      <p> Teaching Fellow (TF) for CS542 Machine Learning <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vT1Y_brRofcEyaBKZJ04Tjb8bCU8wQH_pHpWcS4sK1O5jdf3WzaewrkSOQrRA1YelMdhsJe3x7aH1US/pub">[2019]</a>, Teaching Assistant (TA) for CS591: Deep Learning <a href="https://docs.google.com/document/d/16aF6yDVa_t4AZpAm5RtP4mJpeh_eCtns7u3xt4X17tI">[2017]</a>, Grader for CS542 Machine Learning <a href="https://docs.google.com/document/d/1qKsf801UB1b6C95YibR_3t-DU7qJF7bUe4p3aCnTRM0/edit">[2017]</a> <a href="https://docs.google.com/document/d/e/2PACX-1vRaFgD3ajkz4W_9FwwsjYNC0R3_Ihmoh6kVRdTNzL417DgCRwLcTJFB7D_e--tvsblAycyktBHEqJpV/pub">[2018]</a>, Final Project Supervisor and Guest Lecturer <a href="pdf/deep_learning_cs591_lecture15.pdf">[pdf]</a> for CS591 Machine Learning [2020] and CS585 Image and Video Computing [2021].
+      <p> Reviewer for NeurIPS17, CVPR17, ICRA17, CVPR19, <a href="https://nips.cc/Conferences/2020/Reviewers">NeurIPS20</a>, <a href="https://nips.cc/Conferences/2021/ProgramCommittee">NeurIPS21</a>, emergency reviewer for <a href="https://cvpr2018.thecvf.com/program/reviewer_acknowledgements">CVPR18</a>,
+      outstanding reviewer for <a href="http://cvpr2020.thecvf.com/reviewer-acknowledgements">CVPR20</a>.
+      Helped running VisDA challenges at <a href="http://adas.cvc.uab.es/task-cv2017/people/">ICCV17</a>, <a href="https://sites.google.com/view/task-cv2018/people">ECCV18</a>, <a href="https://sites.google.com/view/task-cv2019/people">ICCV19</a> workshops, and <a href="http://ai.bu.edu/visda-2021/#organizers">NeurIPS21</a>. </p> 
+
+<p> Supervised a high-school student for the AI4ALL outreach research program during the summer of 2021, and a master student for their directed study during the summer of 2020. </p>
+    </td>
+  </tr>
+</tbody></table>
+
+<!-- --------- -->
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <heading>Resources</heading>
+      <p id="res">
+Outside machine learning, I like learning about new ways of looking at math problems (mostly in statistics, linear algebra, geometry, optimization), paradigm-shifting features in programming languages (like Rust's ownership), creative meta-programming (like narrowing type annotations in python with z3), probabilistic programming languages, shaders, better mental and programming models for hard problem domains like parallel computing or async user interaction (e.g. under what restrictions it is possible to declaratively describe a distributed computation and a consistency model - such as a kv-store, or a distributed consensus, or an async ui with client-side prediction - and have a compiler that infers the commutination protocol?), rules and patterns in art (cinema and writing tropes, game design). Below is a list of lesser known sources for inspiration.
+Blogs: <a href="https://www.inference.vc/">inFERENCe</a>, <a href="http://www.offconvex.org/">Off the convex path</a>, <a href="https://eli.thegreenplace.net/">Eli Bendersky's website</a>, <a href="https://jeremykun.com/">Math ∩ Programming</a>, <a href="https://blogs.princeton.edu/imabandit/">I’m a bandit</a>, <a href="https://wiseodd.github.io/">Agustinus Kristiadi's Blog</a>. Youtube: <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a>, <a href="https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ">Sebastian Lague</a>, <a href="https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w">LiveOverflow</a>, <a href="https://www.youtube.com/channel/UCUHW94eEFW7hkUMVaZz4eDg">minutephysics</a>, <a href="https://www.youtube.com/channel/UCEIwxahdLz7bap-VDs9h35A">Steve Mould</a>, <a href="https://www.youtube.com/c/CodeParade/about">CodeParade</a>, <a href="https://www.youtube.com/channel/UCNOVwMpD-5A1xzcQGbIHNeA">Design Doc</a>.
+      </p>
+    </td>
+  </tr>
+</tbody></table>
+
+<!-- --------- -->
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:0px">
+      <br>
+      <p style="text-align:right;font-size:small;">
+      Template adapted from <a href="https://jonbarron.info/">Jon Barron's</a> homepage.
+      </p>
+    </td>
+  </tr>
+</tbody></table>
+
+</body>
+
+</html>
